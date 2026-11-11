@@ -19,7 +19,7 @@ const COUNT = [
   { n: '4', title: 'Drum & Bass', body: 'Jungle and DnB felt more alive, more raw, more real. He never looked back.' }
 ];
 
-const SOUND = ['Drum & Bass', 'Jumpup', 'Dancefloor', 'Liquid', 'Jungle', 'Belgian'];
+const SOUND = ['Drum & Bass', 'Dancefloor', 'Jumpup', 'Liquid', 'Neuro funk', 'Jungle'];
 
 // Technical rider: what the venue / promoter provides.
 const RIDER = [
@@ -208,7 +208,7 @@ export default function App() {
 
         <div className="marquee">
           <Marquee words={['Drum & Bass', 'Jungle', 'Liquid', 'Jumpup']} speed="-6" />
-          <Marquee words={['Dancefloor', 'Belgian', 'Open format', 'Bass']} speed="6" />
+          <Marquee words={['Dancefloor', 'Neuro funk', 'Open format', 'Bass']} speed="6" />
         </div>
 
         <section className="sound section" id="sound" aria-labelledby="sound-title">
@@ -282,6 +282,10 @@ export default function App() {
                 <li>
                   <span>Podcast guest mix</span>
                   <span className="muted">One run</span>
+                </li>
+                <li>
+                  <span>Guest mix</span>
+                  <span className="muted">Missing Link</span>
                 </li>
               </ul>
             </div>
