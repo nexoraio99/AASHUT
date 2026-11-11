@@ -34,7 +34,7 @@ const RIDER = [
 const GIGS = [
   { venue: 'Mir Commune', city: 'Goa' },
   { venue: 'Bailamos', city: 'Pune' },
-  { venue: 'The Kuti Project', city: null }
+  { venue: 'The Kuti Project', city: 'Pune' }
 ];
 
 // A photograph in a fixed frame; the oversized image inside drifts with scroll.
